@@ -1,0 +1,4 @@
+jdbcUrl = jdbc:mysql://wumeng.org/jframe?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&nullNamePatternMatchesAll=true
+user = wm
+password = wumeng18
+devMode = true

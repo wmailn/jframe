@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>user api</title>
+</head>
+<body>
+this is user page ! 
+
+<br><br>// 获取验证码
+<br>http://tomcat-nas.wumeng.org:5005/jframe/api/user/auth_code
+<br>{"phone":"18777779753"}
+
+<br><br>// 注册
+<br>http://tomcat-nas.wumeng.org:5005/jframe/api/user/register
+<br>{"auth_code_id":29,"auth_code":652362,"user_name":"wumeng1","phone":"18777779753","pass_word":"123456"}
+
+<br><br>// 登录
+<br>http://tomcat-nas.wumeng.org:5005/jframe/api/user/login
+<br>{"user_name":"wumeng1","pass_word":"123456"}
+
+</body>
+</html>
